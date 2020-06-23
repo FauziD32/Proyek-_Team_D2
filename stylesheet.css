@@ -16,7 +16,7 @@ a {
  .top-wrapper {
   align-items: center;
   justify-content: center;
-  height: 604px;
+  height: 700px;
   color: white;
   background-image: url('Kepanjen.jpeg');
   background-size: cover;
@@ -49,10 +49,19 @@ a {
   display: inline-block;
   opacity: 0.8;
   border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
 }
 
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
 .btn-wrapper {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .login {
@@ -64,11 +73,6 @@ a {
 .exit {
   font-size: 30px;
   background-color: #c23616;
-}
-
-.btn-wrapper {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 header {
@@ -114,8 +118,8 @@ header {
 }
 
 .blur {
-  background-color: rgba(72, 126, 176,0.4);
-  height: 604px;
+  background-color: rgba(72, 126, 176,0.7);
+  height: 700px;
   width: 100%;
   align-items: center;
   justify-content: center;
